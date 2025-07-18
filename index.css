@@ -15,9 +15,9 @@ header {
 }
 
 header img {
-        width: 100%;
-        height: 100%;
-        padding: 60px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0px 0px 0px;
 }
 
 header h1 {
@@ -79,4 +79,115 @@ button:hover {
     font-weight: 400;
     font-style: normal;
     color: #27272785;
+
+}
+
+/* catagory styles */
+.catagory {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px 0px 150px;
+    gap: 100px;
+    height: 605px;
+    width: 1440px;
+}
+
+.catagory1 img {
+    padding: auto;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px #e55473d7;
+    background-color: #e5547315;
+    padding: 110px 76px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+}
+
+.catagory1 a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #e55473d7;
+    padding: 10px;
+    color: white;
+}
+
+.catagory1 a:hover {
+    cursor: pointer;
+    background-color: #e44a6b;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.catagory2 img {
+    padding: auto;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px #0598a0;
+    background-color: #0598a017;
+    padding: 110px 76px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+}
+
+.catagory2 a {     
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #0598a0;
+    padding: 10px;
+    color: white;
+}
+
+.catagory2 a:hover {
+    cursor: pointer;
+    background-color: #107f85;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.catagory3 img {
+    padding: auto;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px #477D11;
+    background-color: #477d1117;
+    padding: 110px 76px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+}
+
+.catagory3 a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #477D11;
+    padding: 10px;
+    color: white;
+}
+
+.catagory3 a:hover {
+    cursor: pointer;
+    background-color: #326400;
+    color: #ffffff;
+    transition: 0.2s;
 }
